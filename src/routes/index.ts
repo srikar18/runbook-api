@@ -17,4 +17,4 @@ if (process.env.NODE_ENV === 'development') {
   router.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 }
 
-export default router; 
+export default router;
